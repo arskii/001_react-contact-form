@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+$color-pink: #FF6B96;
+$color-white: #ffffff;
+$color-black: #000000;
+
+html {
+  background-color: $color-pink;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+}

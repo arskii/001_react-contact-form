@@ -1,0 +1,58 @@
+@import "./index.scss";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-white;
+  width: 600px;
+  max-width: 100%;
+  padding: 50px 70px;
+  text-align: center;
+  border: 3px solid $color-black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+  input {
+    margin: 10px 0;
+    border: 1px solid #454545;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 12px;
+    display: block;
+    font-family: 'Mulish', sans-serif;
+  }
+
+  textarea {
+    margin: 10px 0;
+    border: 1px solid #454545;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 12px;
+    display: block;
+    font-family: 'Mulish', sans-serif;
+  }
+  button {
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: $color-pink;
+    color: $color-white;
+    font-size: 1.25em;
+    padding: 12px;
+    font-family: 'Mulish', sans-serif;
+  }
+}
